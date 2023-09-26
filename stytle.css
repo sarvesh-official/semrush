@@ -101,6 +101,10 @@ span > svg{
     background-repeat: no-repeat;
     background-position-x: right;
 }
+
+.section2{
+    margin-top: -100px;
+}
 .inbox{
     fill: black;
     margin: 0;
@@ -183,13 +187,26 @@ span{
     /* border: 1px black solid; */
     background-color: rgb(255, 255, 255);
     /* background-color: transparent; */
-    height: 257px;
-    width: 975px;
+    height: 300px;
+    width: 1000px;
+    padding-top: 10px;
+    position: relative;
+    left: 90px;
     margin-top: 53px;
     display: block;
     border-radius: 15px;
-    box-shadow: 5px 5px 2px 2px grey;
+    /* box-shadow: 5px 5px 2px 2px grey; */
 }
+.form p{
+    font-size: 16px;
+}
+.form #top{
+    position: relative;
+    left: -300px;
+    line-height: 24px;
+    padding-bottom: -10px;
+}
+
 .Wld {
     height: 45px;
     width: 338px;
