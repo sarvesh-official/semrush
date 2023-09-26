@@ -23,17 +23,22 @@ nav{
     display: flex;
     background-color:rgb(17, 19, 23);
     height: 50px;
-    padding-left: 14px;
-    padding-right: 14px;
     display: flex;
     justify-content: space-evenly;
     
 }
 
-svg{
-    margin-left: -10px;
+nav > svg{
     margin-top: 20px;
+    fill: rgb(160, 167, 175);
 }
+span > svg{
+    fill: rgb(160, 167, 175);
+    margin-top: 20px;
+    
+   
+}
+
 .login{
     padding: 0 12px;
     background-color: black;
@@ -57,15 +62,17 @@ svg{
     background-color: rgb(0, 159, 129);
 }
 .login-div{
-    margin-top: -5px;
+    /* margin-top:; */
     margin-left: 300px;
     margin-right: 300px;
 }
-
-.loginsvg{
-  
-    margin-left: 2px;
+.login-div > svg{
+    position: relative;
+    fill: rgb(160, 167, 175);
+    top: 3px;
 }
+
+
 
 .afternav{
     margin-left: 400px;
@@ -170,3 +177,4 @@ h1{
 span{
     color: #FF642D;
 }
+
