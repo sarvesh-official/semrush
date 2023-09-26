@@ -163,9 +163,9 @@ table {
 }
 
 td {
-    padding: 39px;
+    padding: 10px 60px;
     text-align: left;
-    border-bottom: 1px black solid;
+    border-bottom: 1px rgb(141, 139, 139) solid;
 }
 
 .icons{
@@ -214,14 +214,9 @@ span{
     padding-bottom: -10px;
 }
 
-.Wld {
-    height: 45px;
-    width: 338px;
-    margin-top: 172px;
-    margin-left: -156px;
-    font-size: 21px;
+.wld{
     border-radius: 5px;
-    border: 1px black solid;
+    border-color: gray;
 }
 
 
@@ -231,9 +226,126 @@ span{
 
 .sharediv{
     margin-top: 20px;
-    padding-left: 27%;
+    padding-left: 20%;
     display: flex;
     padding-top: 0;
     width: 100%;
     height: 500px;
+}
+.icons{
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+/* FOOTER */
+/* FIRST COMPLETE DIV */
+.main {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+/* FOR BUTTON AND ADDRESS */
+.mail {
+
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+img {
+    width: 18px;
+}
+
+
+.contact {
+
+    width: 168px;
+    height: 42.4px;
+    border-radius: 5px;
+    background-color: #111317;
+    color: #898D9A;
+    font-weight: bold;
+    border: 1px solid #898d9a;
+
+}
+
+.address {
+    margin-top: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+}
+
+.one {
+    background-color: #111317;
+    height: 80vh;
+    margin-top: 10%;
+}
+
+.greenbutton {
+    background-color: #009F81;
+    width: 338px;
+    height: 42.4px;
+    color: white;
+    border: 1px solid #009F81;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.pricing {
+    text-align: center;
+    line-height: 40.5px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.green {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainparentdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.parentdiv {
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+    font-size: 12px;
+    width: 1270px;
+}
+
+.headline {
+    color: white;
+    font-weight: bold;
+
+}
+
+.texts1 {
+    font-weight: 800;
+}
+
+.down {
+    width: 100%;
+    margin-top: 15px;
+    display: block;
+    align-items: center;
+}
+
+.mostvisited {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    margin-left: 13%;
+    text-align: left;}
+
+footer{
+    color: gray;
 }
