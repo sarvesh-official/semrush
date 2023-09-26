@@ -62,8 +62,7 @@ span > svg{
     background-color: rgb(0, 159, 129);
 }
 .login-div{
-    /* margin-top:; */
-    margin-left: 300px;
+    padding-left: 300px;
     margin-right: 300px;
 }
 .login-div > svg{
