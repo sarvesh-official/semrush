@@ -177,3 +177,23 @@ h1{
 span{
     color: #FF642D;
 }
+.form {
+    /* border: 1px black solid; */
+    background-color: rgb(255, 255, 255);
+    /* background-color: transparent; */
+    height: 257px;
+    width: 975px;
+    margin-top: 53px;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px 2px grey;
+}
+.Wld {
+    height: 45px;
+    width: 338px;
+    margin-top: 172px;
+    margin-left: -156px;
+    font-size: 21px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
