@@ -103,6 +103,7 @@ span > svg{
     background-position-x: right;
 }
 .inbox{
+    fill: black;
     margin: 0;
     padding: 0;
     margin-top: 15px;
@@ -177,4 +178,3 @@ h1{
 span{
     color: #FF642D;
 }
-
